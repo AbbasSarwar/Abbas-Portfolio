@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @media only screen and (max-width:768px) {
-    body {
+body {
   height: 100vh;
   width: 100%;
   left: 0px;
@@ -26,11 +27,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 5vw;
-  height: 4vh;
+  width: 30px;
+  height: 25px;
 }
 .menu-vector {
-  width: 5vw;
+  width: 30px;
   height: 3px;
   background-color: #6070FF;
   ;
@@ -82,5 +83,22 @@ main {
 }
 .social-bar {
 padding: 11px 0;
+}
+}
+@media only screen and (max-width:375px){
+  body{
+  width: 100%;
+  }
+.top-heading h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #172B4D;
+  font-weight: bolder;
+  padding: 0;
+}
+  .social-bar {
+  display: flex;
+}
+  .social-bar a{
+  padding: 0 7px;
 }
 }
