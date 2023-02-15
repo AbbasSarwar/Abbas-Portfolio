@@ -67,6 +67,7 @@ After you're finished please remove all the comments and instructions!
 > Hello , This is a simple mobile first Portfolio Project.
 
 **[Mobile First]** is a great responsive website of mine and soon further features will added.
+**[Important ]** This is only configured for 375px and 768px (specially for mobile version)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -119,7 +120,7 @@ In order to run this project you need:
 1. A good Computer
 2. Having proper knowledge about Css and Html **necessary**
 
-* cd Hello_Microverse
+* cd Mobile-First
 * git clone https://github.com/AbbasSarwar/Mobile-First.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
