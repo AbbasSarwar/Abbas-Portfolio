@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,17 +15,19 @@
     background-color: #fff;
   }
 
-  nav {
+  header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 4vh 5vh;
   }
 
-  .top-logo h2 {
+  .top-logo a {
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     color: #6070ff;
+    font-weight: 800;
+    text-decoration: none;
   }
 
   .menu-icon {
@@ -44,7 +48,8 @@
 
   main {
     display: flex;
-    background-color: rgb(243, 245, 247);
+    background-image: url(image-resources/background.png);
+    background-size: cover;
     height: 100vh;
     padding: 10vh 5vh;
   }
@@ -55,10 +60,11 @@
   }
 
   .top-heading h1 {
-    padding-right: 30%;
+    padding-right: 20%;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: bolder;
+    font-size: 40px;
   }
 
   .heading-description p {
@@ -69,6 +75,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+  }
+
+  .social-bar a {
+    margin: 0 5px;
   }
 
   .touch-links h3 a {
@@ -100,11 +110,16 @@
     width: 100%;
   }
 
+  .top-heading {
+    display: flex;
+  }
+
   .top-heading h1 {
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: bolder;
-    padding: 0;
+    font-size: 32px;
+    padding: 0 5px;
   }
 
   .social-bar {
@@ -113,5 +128,6 @@
 
   .social-bar a {
     padding: 0 7px;
+    margin: 2px;
   }
 }
