@@ -54,7 +54,7 @@
     padding: 10vh 5vh;
   }
 
-  .informative-top {
+  section {
     display: flex;
     flex-direction: column;
   }
@@ -63,7 +63,7 @@
     padding-right: 20%;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 40px;
   }
 
@@ -77,8 +77,17 @@
     line-height: 24px;
   }
 
-  .social-bar a {
+  .social-bar li a {
     margin: 0 5px;
+  }
+
+  .social-bar ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-bar li {
+    list-style: none;
   }
 
   .touch-links h3 a {
