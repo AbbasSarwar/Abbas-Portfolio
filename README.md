@@ -32,7 +32,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Abbas Portfolio README Template</b></h3>
 
 </div>
 
@@ -62,11 +62,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Mobile First] <a name="about-project"></a>
+# 📖 [Abbas Portfolio] <a name="about-project"></a>
 
 > Hello , This is a simple mobile first Portfolio Project.
 
-**[Mobile First]** is a great responsive website of mine and soon further features will added.
+**[Abbas Portfolio]** is a great responsive website of mine and soon further features will added.
 **[Important ]** This is only configured for 375px and 768px (specially for mobile version)
 
 ## 🛠 Built With <a name="built-with"></a>
