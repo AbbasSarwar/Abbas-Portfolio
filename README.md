@@ -92,6 +92,8 @@ After you're finished please remove all the comments and instructions!
 - **[Hover Buttons]**
 - **[Responsive desplay]**
 - **[colorful texts]**
+- **[About ]**
+- **[Icons ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,8 +148,6 @@ In order to run this project you need:
 
 - [ ] **[More bars]**
 - [ ] **[Sections ]**
-- [ ] **[About ]**
-- [ ] **[Icons ]**
 - [ ] **[advance navigation]**
 - [ ] **[great flexability]**
 
