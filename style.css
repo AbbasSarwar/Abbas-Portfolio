@@ -4,10 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
-=======
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
 }
 
 @media only screen and (max-width: 768px) {
@@ -16,11 +13,7 @@
     width: 100%;
     left: 0;
     top: 0;
-<<<<<<< HEAD
     background-color: #e5e5e5;
-=======
-    background-color: #fff;
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
   }
 
   header {
@@ -28,10 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 4vh 5vh;
-<<<<<<< HEAD
     background: #fff;
-=======
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
   }
 
   .top-logo a {
@@ -58,37 +48,21 @@
     /* border: 1px solid black; */
   }
 
-<<<<<<< HEAD
   .main {
-=======
-  main {
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
     display: flex;
     background-image: url(image-resources/background.png);
     background-size: cover;
     height: 100vh;
     padding: 10vh 5vh;
-<<<<<<< HEAD
     flex-direction: column;
     background-color: #fff;
-=======
-  }
-
-  .informative-top {
-    display: flex;
-    flex-direction: column;
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
   }
 
   .top-heading h1 {
     padding-right: 20%;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
-<<<<<<< HEAD
     font-weight: 700;
-=======
-    font-weight: bolder;
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
     font-size: 40px;
   }
 
@@ -102,7 +76,6 @@
     line-height: 24px;
   }
 
-<<<<<<< HEAD
   .social-bar li a {
     margin: 0 5px;
   }
@@ -116,12 +89,6 @@
     list-style: none;
   }
 
-=======
-  .social-bar a {
-    margin: 0 5px;
-  }
-
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
   .touch-links h3 a {
     color: #7f8cff;
     font-family: 'Poppins', sans-serif;
@@ -144,7 +111,6 @@
   .social-bar {
     padding: 11px 0;
   }
-<<<<<<< HEAD
 
   .work-section {
     margin-top: 10px;
@@ -385,8 +351,6 @@
   .work-paragraph {
     line-height: 24px;
   }
-=======
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
 }
 
 @media only screen and (max-width: 375px) {
