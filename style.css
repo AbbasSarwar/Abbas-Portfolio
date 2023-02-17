@@ -174,8 +174,9 @@
   .work-langs ul li {
     border-radius: 3px;
     background: #ebebff;
-    margin: 0 2px;
-    padding: 0 10px;
+    margin: 0 5px;
+    padding: 2px 15px;
+    border-radius: 5px;
   }
 
   .about-connect h3 a {
@@ -196,34 +197,26 @@
     line-height: 16px;
   }
 
-  .work-button button span {
+  .work-button button {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    border: 1px solid #6070ff;
+    background-color: #2230D2;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396df2;
-    width: 110px;
+    color: #fff;
+    width: 150px;
     height: 7vh;
-  }
-
-  .work-button button {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
     padding: 12px;
     gap: 10px;
-    width: 154px;
-    height: 48px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
+    justify-content: center;
   }
+
 
   .about-button button {
     box-sizing: border-box;
@@ -231,19 +224,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #2230D2;
     padding: 12px;
     gap: 10px;
     width: 154px;
     height: 48px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    color: #396df2;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.03em;
   }
 
   .work-button button:hover {
-    background-color: #dbdcf0;
-    color: #6b93f9;
+    background-color: #fff;
+    color: #6070FF;
   }
 
   .card2 {
@@ -278,8 +274,8 @@
   }
 
   .about-button button:hover {
-    background-color: #dbdcf0;
-    color: #6b93f9;
+    background-color: #fff;
+    color: #6070FF;
   }
 
   .about-langs {
@@ -352,6 +348,9 @@
     font-size: 25px;
     line-height: 24px;
     padding: 10px 5px;
+  }
+  .work-paragraph{
+    line-height: 24px;
   }
 }
 
