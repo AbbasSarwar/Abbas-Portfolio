@@ -92,11 +92,8 @@ After you're finished please remove all the comments and instructions!
 - **[Hover Buttons]**
 - **[Responsive desplay]**
 - **[colorful texts]**
-<<<<<<< HEAD
 - **[About ]**
 - **[Icons ]**
-=======
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,17 +147,11 @@ In order to run this project you need:
 
 
 - [ ] **[More bars]**
-<<<<<<< HEAD
 - [ ] **[Sections ]**
 - [ ] **[advance navigation]**
 - [ ] **[great flexability]**
 
 
-=======
-- [ ] **[advance navigation]**
-- [ ] **[great flexability]**
-
->>>>>>> e68d896004bfb5eb7ef3dedff55556a987708348
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
