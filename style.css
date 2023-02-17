@@ -172,7 +172,6 @@
   }
 
   .work-langs ul li {
-    border-radius: 3px;
     background: #ebebff;
     margin: 0 5px;
     padding: 2px 15px;
@@ -203,7 +202,7 @@
     font-size: 17px;
     line-height: 24px;
     border: 1px solid #6070ff;
-    background-color: #2230D2;
+    background-color: #2230d2;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -217,14 +216,13 @@
     justify-content: center;
   }
 
-
   .about-button button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #2230D2;
+    background-color: #2230d2;
     padding: 12px;
     gap: 10px;
     width: 154px;
@@ -239,7 +237,7 @@
 
   .work-button button:hover {
     background-color: #fff;
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .card2 {
@@ -275,7 +273,7 @@
 
   .about-button button:hover {
     background-color: #fff;
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .about-langs {
@@ -349,7 +347,8 @@
     line-height: 24px;
     padding: 10px 5px;
   }
-  .work-paragraph{
+
+  .work-paragraph {
     line-height: 24px;
   }
 }
