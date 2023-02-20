@@ -166,8 +166,8 @@
   }
 
   .work-langs ul {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     list-style: none;
   }
 
@@ -176,6 +176,7 @@
     margin: 0 5px;
     padding: 2px 15px;
     border-radius: 5px;
+    float: left;
   }
 
   .about-connect h3 a {
