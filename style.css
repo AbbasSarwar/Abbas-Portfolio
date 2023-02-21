@@ -364,10 +364,11 @@
   }
   .form{
     background-color: #6070FF;
-    border-top-left-radius: 50px;
+    border-top-left-radius: 70px;
     padding:10vh 5vw;
     display: flex;
     flex-direction: column;
+    margin: 10px 0;
   }
   .form-heading h1{
     text-align: center;
@@ -376,14 +377,44 @@
     font-weight: 700;
     line-height: 52px;
     padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
   }
   .form-description p{
-    text-align:justify;
+    text-align:center;
     text-justify: inter-word;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     line-height: 28px;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+  }
+  .form-work ul{
+    list-style: none;
+  }
+  input{
+    width: 100%;
+    border-radius: 8px;
+    height: 48px;
+    text-indent: 10px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #172B4D;
+  }
+
+
+
+  
+  input:invalid:required{
+    border: 2px solid red;
+  }
+  input:valid{
+    border: 1px solid black;
   }
 }
 
