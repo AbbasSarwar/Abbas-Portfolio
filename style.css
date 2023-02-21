@@ -116,6 +116,7 @@
     margin-top: 10px;
     display: grid;
     padding: 5vh 5vw;
+    border-radius: 10px;
 
     /* border: 1px solid black; */
     height: 100vh;
@@ -127,9 +128,10 @@
     /* grid-gap: 5px; */
   }
 
-  .work-imgs {
+  .card1 {
     background-image: url(image-resources/file.png);
     background-size: cover;
+    background-position: center;
 
     /* border: 1px solid black; */
   }
@@ -242,20 +244,27 @@
 
   .card2 {
     background-image: url(image-resources/img2.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   .card3 {
     background-image: url(image-resources/img3.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   .card4 {
     background-image: url(image-resources/img.png);
+    background-size: cover;
+    background-position: center;
   }
 
   .about {
     padding: 5vh 5vw;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   .about-heading h2 {
