@@ -215,16 +215,16 @@
             <form action="https://formspree.io/f/xeqwgzag" method="POST">
                 <ul>
                     <li>
-                        <label for=""></label>
+                        <input type="text" name="Username" id="name" minlength="6" maxlength="30" required placeholder="Full Name">
                     </li>
                     <li>
-    
+                        <input type="email" name="Email" id="mail" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]">
                     </li>
                     <li>
-    
+                        <textarea name="Message" id="msg" cols="30" rows="10" required placeholder="Write Your message here." maxlength="50"></textarea>
                     </li>
                     <li>
-    
+                        <input type="submit" name="submit" id="send" value="Get in touch">
                     </li>
                 </ul>
             </form>
