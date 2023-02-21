@@ -407,8 +407,18 @@
     color: #172B4D;
   }
 
-
-
+  textarea{
+    width: 100%;
+    border-radius: 8px;
+    text-indent: 10px;
+    height: 170px;
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #404245;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
   
   input:invalid:required{
     border: 2px solid red;
