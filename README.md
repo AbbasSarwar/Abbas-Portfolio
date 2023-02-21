@@ -1,37 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-
   <h3><b>Abbas Portfolio README Template</b></h3>
 
 </div>
@@ -66,7 +34,7 @@ After you're finished please remove all the comments and instructions!
 
 > Hello , This is a simple mobile first Portfolio Project.
 
-**[Abbas Portfolio]** is a great responsive website of mine and soon further features will added.
+**[Abbas Portfolio]** is a great responsive website for mobile and have a form which takes valid details.
 **[Important ]** This is only configured for 375px and 768px (specially for mobile version)
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -94,6 +62,9 @@ After you're finished please remove all the comments and instructions!
 - **[colorful texts]**
 - **[About ]**
 - **[Icons ]**
+- **[Validation Form]**
+- **[Desplay Grid & Flex]**
+- **[Aligned items]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +94,7 @@ In order to run this project you need:
 2. Having proper knowledge about Css and Html **necessary**
 
 * cd Mobile-First
-* git clone https://github.com/AbbasSarwar/Mobile-First.git
+* git clone https://github.com/AbbasSarwar/Abbas-Portfolio.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,10 +117,11 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[More bars]**
-- [ ] **[Sections ]**
-- [ ] **[advance navigation]**
-- [ ] **[great flexability]**
+- [ ] **[Desktop version]**
+- [ ] **[Interactive bars]**
+- [ ] **[Advance navigation]**
+- [ ] **[Great flexability]**
+- [ ] **[Fully advance]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
