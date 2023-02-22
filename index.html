@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--End-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css">
     <title>Setup and Mobile first</title>
 </head>
 <body>
 <header>
     <div class="top-logo">
-        <a href="#">Abbas</a>
+        <a href="#">Abbas-Portfolio</a>
     </div>
     <nav class="Navbar">
         <div class="menu-icon">
@@ -24,12 +25,19 @@
             <div class="menu-vector"></div>
             <div class="menu-vector"></div>
         </div>
+        <div class="menu-links">
+            <ul>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 <main>
     <section class="main">
         <div class="top-heading">
-            <h1>Hello, My name is Abbas Glad to see you!</h1>
+            <h1>I'm Abbas Sarwar Glad to see you!</h1>
         </div>
         <div class="heading-description">
             <p>I'm a web developer! I can help you to create a Product or Portfolio website for you. Check out my website and contact me if you find it great.</p> 
@@ -48,186 +56,220 @@
         </div>
     </section>
 
-    <section class="work-section">
-        <div class="work-imgs card1">
-            <div class="work-bg"></div>
-        </div>
-        <div class="work-topic">
-            <h2>Tonic</h2>
-        </div>
-        <div class="work-details">
-            <ul>
-                <li>∘ CANOPY</li>
-                <li class="work-2nd">∘ BACK END DEV</li>
-                <li class="work-2nd">∘ 2023</li>
-            </ul>
-        </div>
-        <div class="work-paragraph">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        </div>
-        <div class="work-langs">
-             <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
-             </ul>
-        </div>
-        <div class="work-button">
-            <button>See Project</button>
-        </div>
-    </section>
-
-    <section class="work-section">
-        <div class="work-imgs card2">
-            <div class="work-bg"></div>
-        </div>
-        <div class="work-topic">
-            <h2>Multi Posting</h2>
-        </div>
-        <div class="work-details">
-            <ul>
-                <li>∘ CANOPY</li>
-                <li class="work-2nd">∘ BACK END DEV</li>
-                <li class="work-2nd">∘ 2023</li>
-            </ul>
-        </div>
-        <div class="work-paragraph">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        </div>
-        <div class="work-langs">
-             <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
-             </ul>
-        </div>
-        <div class="work-button">
-            <button>See Project</button>
-        </div>
-    </section>
-
-    <section class="work-section">
-        <div class="work-imgs card3">
-            <div class="work-bg"></div>
-        </div>
-        <div class="work-topic">
-            <h2>Tonic</h2>
-        </div>
-        <div class="work-details">
-            <ul>
-                <li>∘ CANOPY</li>
-                <li class="work-2nd">∘ BACK END DEV</li>
-                <li class="work-2nd">∘ 2023</li>
-            </ul>
-        </div>
-        <div class="work-paragraph">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        </div>
-        <div class="work-langs">
-             <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
-             </ul>
-        </div>
-        <div class="work-button">
-            <button>See Project</button>
-        </div>
-    </section>
-
-    <section class="work-section">
-        <div class="work-imgs card4">
-            <div class="work-bg"></div>
-        </div>
-        <div class="work-topic">
-            <h2>Tonic</h2>
-        </div>
-        <div class="work-details">
-            <ul>
-                <li>∘ CANOPY</li>
-                <li class="work-2nd">∘ BACK END DEV</li>
-                <li class="work-2nd">∘ 2023</li>
-            </ul>
-        </div>
-        <div class="work-paragraph">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        </div>
-        <div class="work-langs">
-             <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
-             </ul>
-        </div>
-        <div class="work-button">
-            <button>See Project</button>
-        </div>
+    <section class="work-container">
+        <section class="work-section">
+            <div class="work-section1">
+                <img src="image-resources/Snapshoot Portfolio.jpg" alt="">
+            </div>
+            <div class="work-section2">
+                <div class="work-imgs card1">
+                    <div class="work-bg"></div>
+                </div>
+                <div class="work-topic">
+                    <h2>Tonic</h2>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>CANOPY</li>
+                        <li class="work-2nd">∘ BACK END DEV</li>
+                        <li class="work-2nd">∘ 2023</li>
+                    </ul>
+                </div>
+                <div class="work-paragraph">
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                </div>
+                <div class="work-langs">
+                     <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
+                     </ul>
+                </div>
+                <div class="work-button">
+                    <button>See Project</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="work-section">
+            <div class="work-section3">
+                <div class="work-imgs card2">
+                    <div class="work-bg"></div>
+                </div>
+                <div class="work-topic">
+                    <h2>Multi Posting</h2>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>∘ CANOPY</li>
+                        <li class="work-2nd">∘ BACK END DEV</li>
+                        <li class="work-2nd">∘ 2023</li>
+                    </ul>
+                </div>
+                <div class="work-paragraph">
+                    <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                </div>
+                <div class="work-langs">
+                     <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                     </ul>
+                </div>
+                <div class="work-button">
+                    <button>See Project</button>
+                </div>
+            </div>
+            <div class="work-section4">
+                <img src="image-resources/Snapshoot Portfolio2.jpg" alt="">
+            </div>
+        </section>
+    
+        <section class="work-section">
+            <div class="work-section1">
+                <img src="image-resources/Portfolio.png" alt="">
+            </div>
+            <div class="work-section2">
+                <div class="work-imgs card3">
+                    <div class="work-bg"></div>
+                </div>
+                <div class="work-topic">
+                    <h2>Facebook 360</h2>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Facebook</li>
+                        <li class="work-2nd">∘ Full Stack Dev</li>
+                        <li class="work-2nd">∘ 2015</li>
+                    </ul>
+                </div>
+                <div class="work-paragraph">
+                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                </div>
+                <div class="work-langs">
+                     <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                     </ul>
+                </div>
+                <div class="work-button">
+                    <button>See Project</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="work-section">
+            <div class="work-section3">
+                <div class="work-imgs card4">
+                    <div class="work-bg"></div>
+                </div>
+                <div class="work-topic">
+                    <h2>Uber Navigation</h2>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Uber</li>
+                        <li class="work-2nd">∘ Lead Developer</li>
+                        <li class="work-2nd">∘ 2015</li>
+                    </ul>
+                </div>
+                <div class="work-paragraph">
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                </div>
+                <div class="work-langs">
+                     <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">Ruby on rails</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
+                     </ul>
+                </div>
+                <div class="work-button">
+                    <button>See Project</button>
+                </div>
+            </div>
+            <div class="work-section4">
+                <img src="image-resources/Snapshoot Portfolio3.jpg" alt="">
+            </div>
+        </section>
     </section>
 
     <section class="about">
-        <div class="about-heading">
-            <h2>About Myself</h2>
-        </div>
-        <div class="about-description">
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
-        <div class="about-connect">
-            <h3><a href="">LET’S CONNECT</a></h3>
-        </div>
-        <div class="about-socials">
-            <div class="social-bar">
-                <ul>
-                    <li><a href="https://twitter.com/Abbas_sDev" class="connect"><img src="image-resources/twitter.png" alt="Twitter logo"></a></li>
-                    <li><a href="https://www.linkedin.com/in/abbas-sarwar-4a0b16257/" class="connect"><img src="image-resources/linkedin.png" alt="LinkedIn logo"></a></li>
-                    <li><a href="https://github.com/AbbasSarwar" class="connect"><img src="image-resources/Github.png" alt="Github logo"></a></li>
-                    <li><a href="#" class="connect"><img src="image-resources/M.png" alt=" logo"></a></li>
-                    <li><a href="#" class="connect"><img src="image-resources/new.png" alt=" logo"></a></li>
-                </ul>
+        <div class="langs-about">
+            <div class="about-heading">
+                <h2>About Myself</h2>
+            </div>
+            <div class="about-description">
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            </div>
+            <div class="about-connect">
+                <h3><a href="">LET’S CONNECT</a></h3>
+            </div>
+            <div class="about-socials">
+                <div class="social-bar">
+                    <ul>
+                        <li><a href="https://twitter.com/Abbas_sDev" class="connect"><img src="image-resources/twitter.png" alt="Twitter logo"></a></li>
+                        <li><a href="https://www.linkedin.com/in/abbas-sarwar-4a0b16257/" class="connect"><img src="image-resources/linkedin.png" alt="LinkedIn logo"></a></li>
+                        <li><a href="https://github.com/AbbasSarwar" class="connect"><img src="image-resources/Github.png" alt="Github logo"></a></li>
+                        <li><a href="#" class="connect"><img src="image-resources/M.png" alt=" logo"></a></li>
+                        <li><a href="#" class="connect"><img src="image-resources/new.png" alt=" logo"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-button">
+                <button>Get my resume</button>
             </div>
         </div>
-        <div class="about-button">
-            <button>Get my resume</button>
-        </div>
-        <div class="about-langs">
-            <h2>Languages <span class="arrow-down"><i class="fa-solid fa-caret-down"></i></span></h2>
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-square-js"></i> Javascript</a></li>
-                <li><a href="#"><i class="fa-brands fa-html5"></i> HTML</a></li>
-                <li><a href="#"><i class="fa-brands fa-css3-alt"></i> CSS</a></li>
-            </ul>
-        </div>
-        <div class="about-frame">
-            <ul>
-                <li>Frameworks <span class="arrow"><i class="fa-solid fa-caret-right"></i></span></i></li><hr>
-                <li>Skills <span class="arrow1"><i class="fa-solid fa-caret-right"></i></span></li><hr>
-            </ul>
+        <div class="langs-langs">
+            <div class="about-langs">
+                <h2>Languages <span class="arrow"><i class="fa-solid fa-caret-down"></i></span></h2>
+                <ul>
+                    <li><a href="#"><i class="sq fa-brands fa-square-js"></i><span class="box-icon js"><p class="js1">JS</p></span> Javascript</a></li>
+                    <li><a href="#"><i class="sq fa-brands fa-html5"></i><span class="box-icon html"><i class="cir fa-brands fa-html5"></i></span> HTML</a></li>
+                    <li><a href="#"><i class="sq fa-brands fa-css3-alt"></i> <span class="box-icon css"><i class="cir fa-brands fa-css3-alt"></i></span> CSS</a></li>
+                </ul>
+            </div>
+            <div class="about-frame">
+                <ul>
+                    <li>Frameworks <span class="arrow"><i class="fa-solid fa-caret-right"></i></span></i></li><hr>
+                    <li>Skills <span class="arrow"><i class="fa-solid fa-caret-right"></i></span></li><hr>
+                </ul>
+            </div>
         </div>
 
     </section>
     <section class="form">
-        <div class="form-heading">
-            <h1>Contact me</h1>
-        </div>
-        <div class="form-description">
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        </div>
-        <div class="form-work">
-            <form action="https://formspree.io/f/xeqwgzag" method="POST">
-                <ul>
-                    <li>
-                        <input type="text" name="Username" id="name" minlength="6" maxlength="30" required placeholder="Full Name">
-                    </li>
-                    <li>
-                        <input type="email" name="Email" id="mail" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]">
-                    </li>
-                    <li>
-                        <textarea name="Message" id="msg" cols="30" rows="10" required placeholder="Write Your message here." maxlength="500"></textarea>
-                    </li>
-                    <li>
-                        <input type="submit" name="submit" id="send" value="Get in touch">
-                    </li>
-                </ul>
-            </form>
+        <div class="form-container">
+            <div class="form-heading">
+                <h1>Contact me</h1>
+            </div>
+            <div class="form-description">
+                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+            <div class="form-work">
+                <form action="https://formspree.io/f/xeqwgzag" method="POST">
+                    <ul>
+                        <li>
+                            <input type="text" name="Username" id="name" minlength="6" maxlength="30" required placeholder="Full Name">
+                        </li>
+                        <li>
+                            <input type="email" name="Email" id="mail" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]">
+                        </li>
+                        <li>
+                            <textarea name="Message" id="msg" cols="30" rows="10" required placeholder="Write Your message here." maxlength="500"></textarea>
+                        </li>
+                        <li class="last-send">
+                            <input type="submit" name="submit" id="send" value="Get in touch">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="End-line">
+                <hr>
+            </div>
         </div>
     </section>
 </main>
