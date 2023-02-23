@@ -68,4 +68,18 @@
     transform: scale(1.1);
   }
 
+  .form-description,
+  .form-heading,
+  h2,
+  .about-frame ul li {
+    transition: 0.4s;
+  }
+
+  .form-description:hover,
+  .form-heading:hover,
+  h2:hover,
+  .about-frame ul li:hover {
+    transform: translate(20px);
+  }
+
 }
