@@ -1,0 +1,54 @@
+@media only screen and (min-width: 769px) {
+  .top-logo {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(90deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .top-heading {
+    transition: .4s;
+  }
+  .top-heading:hover {
+    transform: translate(20px);
+  }
+  .heading-description {
+    transition: .4s;
+  }
+  .heading-description:hover {
+    transform: scale(1.1);
+  }
+
+  .menu-links ul li, .about-description p , .work-paragraph , .work-langs ul li{
+    transition: 0.1s;
+  }
+
+  .menu-links ul li:hover , .about-description p:hover , .work-paragraph:hover, .work-langs ul li:hover{
+    transform: scale(1.1);
+  }
+
+  .touch-links h3 a, .about-connect h3 a {
+    transition: 0.1s;
+  }
+
+  .touch-links h3 a:hover, .about-connect h3 a:hover {
+    color: blue;
+  }
+
+  .work-section1,
+  .work-section4,
+  .about-langs ul li {
+    transition: 0.5s 0.1s;
+  }
+
+}
