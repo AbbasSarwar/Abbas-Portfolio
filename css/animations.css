@@ -17,32 +17,19 @@
   }
 
   .top-heading {
-    transition: .4s;
+    transition: 0.4s;
   }
+
   .top-heading:hover {
     transform: translate(20px);
   }
+
   .heading-description {
-    transition: .4s;
+    transition: 0.4s;
   }
+
   .heading-description:hover {
     transform: scale(1.1);
-  }
-
-  .menu-links ul li, .about-description p , .work-paragraph , .work-langs ul li{
-    transition: 0.1s;
-  }
-
-  .menu-links ul li:hover , .about-description p:hover , .work-paragraph:hover, .work-langs ul li:hover{
-    transform: scale(1.1);
-  }
-
-  .touch-links h3 a, .about-connect h3 a {
-    transition: 0.1s;
-  }
-
-  .touch-links h3 a:hover, .about-connect h3 a:hover {
-    color: blue;
   }
 
   .work-section1,
@@ -51,10 +38,41 @@
     transition: 0.5s 0.1s;
   }
 
+  .work-langs ul li,
+  .menu-links ul li {
+    transition: 0.1s;
+  }
+
+  .about-frame ul li {
+    transition: 0.4s;
+  }
+
   .work-section1:hover,
   .work-section4:hover,
   .about-langs ul li:hover {
     transform: scale(1.1);
+  }
+
+  .about-description p,
+  .work-paragraph {
+    transition: 0.2s;
+  }
+
+  .menu-links ul li:hover,
+  .about-description p:hover,
+  .work-paragraph:hover,
+  .work-langs ul li:hover {
+    transform: scale(1.1);
+  }
+
+  .touch-links h3 a,
+  .about-connect h3 a {
+    transition: 0.1s;
+  }
+
+  .touch-links h3 a:hover,
+  .about-connect h3 a:hover {
+    color: blue;
   }
 
   button,
@@ -70,8 +88,7 @@
 
   .form-description,
   .form-heading,
-  h2,
-  .about-frame ul li {
+  h2 {
     transition: 0.4s;
   }
 
@@ -81,5 +98,4 @@
   .about-frame ul li:hover {
     transform: translate(20px);
   }
-
 }
