@@ -65,6 +65,7 @@
 - **[Validation Form]**
 - **[Desplay Grid & Flex]**
 - **[Aligned items]**
+- **[Desktop screens supported]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,6 +160,6 @@ I would like to thank you All Microverse community.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Chandan-devs-tech/Portfolio/blob/feature/mobile-first/MIT.md) licensed.
+This project is [MIT](/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
