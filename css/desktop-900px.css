@@ -86,7 +86,7 @@
 
   .main {
     display: flex;
-    background: url(/image-resources/Header\ bg.png), #fff;
+    background: url(/image-resources/Header.png), #fff;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -99,7 +99,7 @@
   }
 
   .top-heading h1 {
-    padding-right: 20%;
+    padding-right: 0%;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: 700;
@@ -122,11 +122,11 @@
   }
 
   .work-section1 img {
-    height: 260px;
+    height: 40vh;
   }
 
   .work-section4 img {
-    height: 280px;
+    height: 40vh;
   }
 
   .social-bar a img {
@@ -199,12 +199,15 @@
 
   .work-topic {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 20px;
     line-height: 44px;
     padding: 10px 0;
     color: #172b4d;
     background-color: #fff;
+  }
+  .work-topic h2 {
+    display: inline-block;
   }
 
   .work-details ul {
@@ -299,7 +302,7 @@
     flex-direction: row;
     background-color: #fff;
     border-top-right-radius: 80px;
-    margin-top: 10px;
+    margin-top: 80px;
 
     /* height: 860px; */
     padding: 10vh 10vw;
@@ -314,7 +317,7 @@
 
   .langs-langs {
     /* border: 1px solid black; */
-    width: 60%;
+    width: 50%;
     position: relative;
     padding: 0 10px;
   }
@@ -362,7 +365,7 @@
   .about-langs ul li {
     height: 15vh;
     background-color: #f7f7f9;
-    margin: 5px 0;
+    margin: 5px 5px;
     width: 50vw;
     margin-right: 5px;
     display: flex;
@@ -448,7 +451,8 @@
   }
 
   .form {
-    background-color: #6070ff;
+    background: url(/image-resources/shapes@2x.png), #6070ff;
+    background-size: cover;
     border-top-left-radius: 70px;
     display: flex;
     flex-direction: column;

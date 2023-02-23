@@ -400,7 +400,7 @@
   }
 
   .form {
-    background-color: #6070ff;
+    background: url(/image-resources/contact\ form\ background\ shapes@2x.png), #6070ff;
     border-top-left-radius: 70px;
     padding: 10vh 5vw 0 5vw;
     display: flex;
