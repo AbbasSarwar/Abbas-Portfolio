@@ -51,4 +51,21 @@
     transition: 0.5s 0.1s;
   }
 
+  .work-section1:hover,
+  .work-section4:hover,
+  .about-langs ul li:hover {
+    transform: scale(1.1);
+  }
+
+  button,
+  #send {
+    transition: 0.2s;
+  }
+
+  button:hover,
+  #send:hover {
+    background-color: #2230d2;
+    transform: scale(1.1);
+  }
+
 }
