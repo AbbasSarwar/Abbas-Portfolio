@@ -34,8 +34,7 @@
 
 > Hello , This is a simple mobile first Portfolio Project.
 
-**[Abbas Portfolio]** is a great responsive website for mobile and have a form which takes valid details.
-**[Important ]** This is only configured for 375px and 768px (specially for mobile version)
+**[Abbas Portfolio]** is a great responsive website for mobile and have a form which takes valid information and it same goes for desktop version too However its working fine with screens 375px -1920px.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,7 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]([https://github.com/AbbasSarwar/Mobile-First])(https://github.com/AbbasSarwar/Mobile-First)
+- [Live Demo Link]([https://abbassarwar.github.io/Abbas-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,8 +93,12 @@ In order to run this project you need:
 1. A good Computer
 2. Having proper knowledge about Css and Html **necessary**
 
+* Proceed to live demo for first look.
 * cd Mobile-First
 * git clone https://github.com/AbbasSarwar/Abbas-Portfolio.git
+* cd Abbas-Portfolio
+* Go live through in VS code for further.
+* Here we Go....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +121,6 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Desktop version]**
 - [ ] **[Interactive bars]**
 - [ ] **[Advance navigation]**
 - [ ] **[Great flexability]**
@@ -133,7 +135,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AbbasSarwar/Abbas-Portfolio/issues/7).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,15 +144,14 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like my Portfolio statup project kindly comment or Follow me on LinkedIn, Twitter & twitter. 
+If you like my Portfolio statup project kindly comment or Follow me on LinkedIn, Twitter & twitter and always Your feedback will be really appreciated I have created issue if you want to share.
+Thanks. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank you All Microverse community.
 
