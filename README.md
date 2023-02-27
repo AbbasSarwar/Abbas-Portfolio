@@ -73,7 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]([https://abbassarwar.github.io/Abbas-Portfolio/)
+- [Live Demo Link](https://abbassarwar.github.io/Abbas-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
