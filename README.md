@@ -34,7 +34,7 @@
 
 > Hello , This is a simple mobile first Portfolio Project.
 
-**[Abbas Portfolio]** is a great responsive website for mobile and have a form which takes valid information and it same goes for desktop version too However its working fine with screens 375px -1920px.
+**[Abbas Portfolio]** is a great responsive website for mobile and has a form that takes valid information and it same goes for the desktop version too However it's working fine with screens 375px -1920px.
 
 ## 🛠 Built With <a name="built-with"></a>
 
