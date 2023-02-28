@@ -112,7 +112,13 @@ In order to run this project you need:
 
 - GitHub: [@AbbasSarwar](https://github.com/AbbasSarwar)
 - Twitter: [@Abbas_sDev](https://twitter.com/Abbas_sDev)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abbas-sarwar-4a0b16257/)
+- LinkedIn: [Abbas-Sarwar](https://www.linkedin.com/in/abbas-sarwar-4a0b16257/)
+
+👤 **Author2**
+
+- GitHub: [@GhostEsso](https://github.com/GhostEsso)
+- Twitter: [@TambanaEssohana](https://twitter.com/TambanaEssohana)
+- LinkedIn: [@TambanaEssohana](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/?originalSubdomain=tg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
