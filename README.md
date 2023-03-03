@@ -113,6 +113,7 @@ In order to run this project you need:
 - GitHub: [@AbbasSarwar](https://github.com/AbbasSarwar)
 - Twitter: [@Abbas_sDev](https://twitter.com/Abbas_sDev)
 - LinkedIn: [Abbas-Sarwar](https://www.linkedin.com/in/abbas-sarwar-4a0b16257/)
+- outline project: [video](https://www.loom.com/share/615af7a9894d44b5af821be911da42f0)
 
 👤 **Author2**
 
