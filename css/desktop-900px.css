@@ -132,6 +132,13 @@
     height: 21px;
   }
 
+  .close {
+    display: none;
+  }
+
+  .menuLinks {
+    display: block !important;
+  }
   .social-bar {
     padding: 11px 0;
   }

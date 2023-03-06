@@ -126,6 +126,13 @@
   .work-section4 img {
     height: 40vh;
   }
+  .menuLinks {
+    display: block;
+  }
+
+  .close {
+    display: none !important;
+  }
 
   .social-bar a img {
     width: 21px;
