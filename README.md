@@ -56,6 +56,7 @@
 
 
 - **[Simple Template]**
+- **[Menu clickable]**
 - **[Hover Buttons]**
 - **[Responsive desplay]**
 - **[colorful texts]**
@@ -117,10 +118,13 @@ In order to run this project you need:
 
 👤 **Author2**
 
-- GitHub: [@GhostEsso](https://github.com/GhostEsso)
-- Twitter: [@TambanaEssohana](https://twitter.com/TambanaEssohana)
-- LinkedIn: [@TambanaEssohana](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/?originalSubdomain=tg)
+- GitHub: [@sheldonwafula](https://github.com/sheldonwafula)
 
+👤 **Author3**
+
+- GitHub: [@Abmart0803](https://github.com/Abmart0803)
+- Twitter: [@MartinsAbmart](https://twitter.com/MartinsAbmart)
+- LinkedIn: [@abmartcodingworld](https://www.linkedin.com/in/abmartcodingworld/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
