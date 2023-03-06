@@ -50,7 +50,7 @@
   }
 
   .close {
-    display: block;
+    display: none;
     z-index: 100;
     position: fixed;
     right: 10px;
@@ -71,7 +71,7 @@
     border: 1px solid black;
     top: 0;
     left: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 100%;
     width: 100%;
