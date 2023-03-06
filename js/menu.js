@@ -16,3 +16,10 @@ btnClose.addEventListener('click', ()=>{
         btnClose.style.display = 'none'
     }
 })
+
+for(let i=0; i < menu_a.length; i++){
+    menu_a[i].onclick = (e)=>{
+        menuLinks.style.display = 'none'
+        btnClose.style.display = 'none'
+    }
+}
