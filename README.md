@@ -118,10 +118,6 @@ In order to run this project you need:
 
 👤 **Author2**
 
-- GitHub: [@sheldonwafula](https://github.com/sheldonwafula)
-
-👤 **Author3**
-
 - GitHub: [@Abmart0803](https://github.com/Abmart0803)
 - Twitter: [@MartinsAbmart](https://twitter.com/MartinsAbmart)
 - LinkedIn: [@abmartcodingworld](https://www.linkedin.com/in/abmartcodingworld/)
