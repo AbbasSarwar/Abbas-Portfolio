@@ -46,4 +46,3 @@ for(let i=0; i < btns.length; i++){
 close.addEventListener('click', ()=>{
     container.classList.remove('pop')
 })
-
