@@ -1,72 +1,87 @@
 .work-main-container {
-    background-color: rgba(193, 199, 208, 0.9);
-    height: 100vh;
-    z-index: 100;
-    position: fixed;
-    top: -100vh;
+  background-color: rgba(193, 199, 208, 0.9);
+  height: 100vh;
+  z-index: 100;
+  position: fixed;
+  top: -100vh;
 }
+
 .pop {
-    animation-name: display;
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
+  animation-name: display;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
 }
 
 @keyframes display {
-    0% {
-        top: -100vh;
-    }
-    100% {
-        top: 0px;
-    }
+  0% {
+    top: -100vh;
+  }
+
+  100% {
+    top: 0;
+  }
 }
+
 .fa-circle {
-    font-size: 14px;
-    color: #C1C7D0;
+  font-size: 14px;
+  color: #c1c7d0;
 }
+
 .li-first {
-    color: #7A869A;
+  color: #7a869a;
 }
-.work-main-heading img{
-    height: 45vh;
+
+.work-main-heading img {
+  height: 45vh;
 }
+
 .work-remain {
-    position: relative;
+  position: relative;
 }
+
 .closeit {
-    position: absolute;
-    font-size: 18px;
-    top: 10px;
+  position: absolute;
+  font-size: 18px;
+  top: 10px;
 }
-.closeit i{
-    float: right;
+
+.closeit i {
+  float: right;
 }
-@media only screen and (max-width:768px) {
-    .work-main-container {
-        background-color: rgba(193, 199, 208, 0.9);
-        height: 100%;
-        position: fixed;
+
+@media only screen and (max-width: 768px) {
+  .work-main-container {
+    background-color: rgba(193, 199, 208, 0.9);
+    height: 100%;
+    position: fixed;
+  }
+
+  .work-remain {
+    position: relative;
+    height: 100vh;
+  }
+
+  .paragh {
+    font-size: 14px;
+  }
+
+  .ul-work ul li {
+    font-size: 8px;
+  }
+
+  .work-main-heading img {
+    width: 50%;
+    height: 30vh;
+  }
+
+  @keyframes display {
+    0% {
+      top: -100vh;
     }
-    .work-remain {
-        position: relative;
-        height: 100vh;
+
+    100% {
+      top: -35px;
     }
-    .paragh {
-        font-size: 14px;
-    }
-    .ul-work ul li {
-     font-size: 8px;   
-    }
-    .work-main-heading img{
-        width:50%;
-        height: 30vh;
-    }
-    @keyframes display {
-        0% {
-            top: -100vh;
-        }
-        100% {
-            top: -35px;
-        }
-    }
+  }
 }
