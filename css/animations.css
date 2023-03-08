@@ -2,7 +2,6 @@
   .top-logo {
     animation-name: rotate;
     animation-duration: 2s;
-    animation-fill-mode: alternate;
     animation-timing-function: ease-in-out;
   }
 
