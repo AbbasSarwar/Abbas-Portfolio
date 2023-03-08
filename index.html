@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/animations.css">
     <script src="js/menu.js" type="module"></script>
     <script src="js/pop.js" type="module"></script>
+    <script src="js/validation.js" type="module"></script>
     <title>Abbas's Portfolio</title>
 </head>
 <body>
@@ -217,8 +218,8 @@
                         </p>
                     </div>
                     <div class=" col-md-4 d-flex flex-column">
-                        <ul class="list-inline ul-work">
-                            <li class="list-inline-item badge bg-info"><a class= "text-decoration-none text-dark" href="">Html</a></li>
+                        <ul class="list-inline ul-work justify-content-center">
+                            <li class="list-inline-item badge bg-info text-primary"><a class= "text-decoration-none text-dark" href="">Html</a></li>
                             <li class="list-inline- badge bg-info"><a class= "text-decoration-none text-dark" href="">Css</a></li>
                             <li class="list-inline-item badge bg-info "><a class= "text-decoration-none text-dark" href="">Javascript</a></li>
                             <ul class="list-inline text-dark">
@@ -227,7 +228,7 @@
                                 <li class="list-inline-item badge bg-info"><a class= "text-decoration-none text-dark" href="">github</a></li>
                             </ul>
                         </ul>
-                        <div class="d-flex flex-row col-md-10 gap-2 pb-2">
+                        <div class="d-flex flex-row col-md-10 gap-2 pb-2 justify-content-center">
                             <a href="https://abbassarwar.github.io/Abbas-Portfolio/" class="btn btn-outline-primary text-decoration-none">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             <a href="https://github.com/AbbasSarwar/Abbas-Portfolio" class="btn btn-outline-primary text-decoration-none">See Source <i class="fa-brands fa-github"></i></a>
                         </div>
@@ -296,11 +297,12 @@
                             <input type="text" name="Username" id="name" minlength="6" maxlength="30" required placeholder="Full Name">
                         </li>
                         <li>
-                            <input type="email" name="Email" id="mail" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]">
+                            <input type="email" name="Email" id="mail" required placeholder="Email" >
                         </li>
                         <li>
                             <textarea name="Message" id="msg" cols="30" rows="10" required placeholder="Write Your message here." maxlength="500"></textarea>
                         </li>
+                        <li class="error text-center text-danger"></li>
                         <li class="last-send">
                             <input type="submit" name="submit" id="send" value="Get in touch">
                         </li>
