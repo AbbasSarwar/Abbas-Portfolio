@@ -3,8 +3,22 @@
     height: 100vh;
     z-index: 100;
     position: fixed;
-    top: 0;
-    display: none;
+    top: -100vh;
+}
+.pop {
+    animation-name: display;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes display {
+    0% {
+        top: -100vh;
+    }
+    100% {
+        top: 0px;
+    }
 }
 .fa-circle {
     font-size: 14px;
@@ -32,7 +46,6 @@
         background-color: rgba(193, 199, 208, 0.9);
         height: 100%;
         position: fixed;
-        top: -45px;
     }
     .work-remain {
         position: relative;
@@ -47,5 +60,13 @@
     .work-main-heading img{
         width:50%;
         height: 30vh;
+    }
+    @keyframes display {
+        0% {
+            top: -100vh;
+        }
+        100% {
+            top: -35px;
+        }
     }
 }

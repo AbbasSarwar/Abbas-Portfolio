@@ -364,9 +364,6 @@
     border-radius: 10px;
     margin-bottom: 20px;
 
-    /* margin-top: 10px; */
-
-    /* height: 860px; */
   }
 
   .about-heading h2 {
@@ -564,6 +561,17 @@
 
   .box-icon {
     display: none;
+  }
+
+}
+
+
+@keyframes display {
+  0% {
+      top: -100vh;
+  }
+  100% {
+      top: 0;
   }
 }
 
