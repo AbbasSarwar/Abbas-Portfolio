@@ -1,0 +1,51 @@
+.work-main-container {
+    background-color: rgba(193, 199, 208, 0.9);
+    height: 100vh;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.fa-circle {
+    font-size: 14px;
+    color: #C1C7D0;
+}
+.li-first {
+    color: #7A869A;
+}
+.work-main-heading img{
+    height: 45vh;
+}
+.work-remain {
+    position: relative;
+}
+.closeit {
+    position: absolute;
+    font-size: 18px;
+    top: 10px;
+}
+.closeit i{
+    float: right;
+}
+@media only screen and (max-width:768px) {
+    .work-main-container {
+        background-color: rgba(193, 199, 208, 0.9);
+        height: 100%;
+        position: fixed;
+        top: -45px;
+    }
+    .work-remain {
+        position: relative;
+        height: 100vh;
+    }
+    .paragh {
+        font-size: 14px;
+    }
+    .ul-work ul li {
+     font-size: 8px;   
+    }
+    .work-main-heading img{
+        width:50%;
+        height: 30vh;
+    }
+}
