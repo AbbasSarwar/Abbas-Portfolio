@@ -14,10 +14,11 @@
 }
 
 .badge {
-  background-color: #EBEBFF !important;
+  background-color: #ebebff !important;
 }
+
 .badge a {
-  color: #6070FF !important;
+  color: #6070ff !important;
 }
 
 @keyframes display {
