@@ -168,7 +168,6 @@
 
   .work-container {
     display: grid;
-    grid-template-rows: repeat(4, 90vh);
     gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -311,7 +310,7 @@
     padding: 12px;
     gap: 10px;
     justify-content: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
   }
 
   .about-button button {
