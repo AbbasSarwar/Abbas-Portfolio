@@ -9,11 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <!--End-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pop.css">
     <link rel="stylesheet" href="css/desktop-900px.css">
     <link rel="stylesheet" href="css/desktop-769px.css">
     <link rel="stylesheet" href="css/animations.css">
+    <script src="js/menu.js" type="module"></script>
+    <script src="js/pop.js" type="module"></script>
+    <script src="js/validation.js" type="module"></script>
     <title>Abbas's Portfolio</title>
 </head>
 <body>
@@ -22,17 +27,20 @@
         <a href="#">Portfolio</a>
     </div>
     <nav class="Navbar">
+        <div class="menu-links">
+            <ul class="menu-links1">
+                <li><a class="menu-a" href="#portfolio">Porfolio</a></li>
+                <li><a class="menu-a"  href="#about">About</a></li>
+                <li><a class="menu-a"  href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="close">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
         <div class="menu-icon">
             <div class="menu-vector"></div>
             <div class="menu-vector"></div>
             <div class="menu-vector"></div>
-        </div>
-        <div class="menu-links">
-            <ul>
-                <li><a href="#portfolio">Porfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </div>
     </nav>
 </header>
@@ -62,12 +70,10 @@
     <section class="work-container">
         <section class="work-section">
             <div class="work-section1">
-                <img src="image-resources/Snapshoot Portfolio.jpg" alt="Snapshoot image">
+                <img src="image-resources/SPortfolio.jpg" alt="Snapshoot image">
             </div>
             <div class="work-section2">
-                <div class="work-imgs card1">
-                    <div class="work-bg"></div>
-                </div>
+
                 <div class="work-topic">
                     <h2>Tonic</h2>
                 </div>
@@ -89,16 +95,13 @@
                      </ul>
                 </div>
                 <div class="work-button">
-                    <button value="See Project">See Project</button>
+                    <button class="btnx btn0"  value="See Project">See Project</button>
                 </div>
             </div>
         </section>
     
-        <section class="work-section">
-            <div class="work-section3">
-                <div class="work-imgs card2">
-                    <div class="work-bg"></div>
-                </div>
+        <section class="work-section reconfig">
+            <div class="work-section3 seconddev">
                 <div class="work-topic">
                     <h2>Multi Posting</h2>
                 </div>
@@ -121,10 +124,10 @@
                      </ul>
                 </div>
                 <div class="work-button">
-                    <button value="See Project">See Project</button>
+                    <button class="btnx btn1"  value="See Project">See Project</button>
                 </div>
             </div>
-            <div class="work-section4">
+            <div class="work-section4 firstdev">
                 <img src="image-resources/Snapshoot Portfolio2.jpg" alt="Snapshoot image">
             </div>
         </section>
@@ -134,9 +137,6 @@
                 <img src="image-resources/Portfolio.png" alt="Snapshoot image">
             </div>
             <div class="work-section2">
-                <div class="work-imgs card3">
-                    <div class="work-bg"></div>
-                </div>
                 <div class="work-topic">
                     <h2>Facebook 360</h2>
                 </div>
@@ -159,16 +159,13 @@
                      </ul>
                 </div>
                 <div class="work-button">
-                    <button value="See Project">See Project</button>
+                    <button class="btnx btn2"  value="See Project">See Project</button>
                 </div>
             </div>
         </section>
     
-        <section class="work-section">
-            <div class="work-section3">
-                <div class="work-imgs card4">
-                    <div class="work-bg"></div>
-                </div>
+        <section class="work-section reconfig">
+            <div class="work-section3 seconddev">
                 <div class="work-topic">
                     <h2>Uber Navigation</h2>
                 </div>
@@ -191,14 +188,54 @@
                      </ul>
                 </div>
                 <div class="work-button">
-                    <button value="See Project">See Project</button>
+                    <button class="btnx btn3" value="See Project">See Project</button>
                 </div>
             </div>
-            <div class="work-section4">
+            <div class="work-section4 firstdev">
                 <img src="image-resources/Snapshoot Portfolio3.jpg" alt="Snapshoot image">
             </div>
         </section>
     </section>
+    <section class="work-main-container container-fluid p-5">
+        <div class="row bg-light work-remain">
+            <span class="closeit"><i class="fa-solid fa-xmark"></i></span>
+            <div class="col-12">
+                <div class="work-main-heading px-2 py-2">
+                    <h1 class="topic-here"></h1>
+                    <ul class="list-inline flex">
+                        <li class="list-inline-item">CANOPY</li>
+                        <li class="list-inline-item li-first"><i class="fa-solid fa-circle"></i> Back End Dev</li>
+                        <li class="list-inline-item li-first"><i class="fa-solid fa-circle"></i> 2015</li>
+                    </ul>
+                    <img src="" class="img-fluid w-100 " alt="Logo">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row d-flex flex-row">
+                    <div class="col-md-8">
+                        <p class="paragh pb-2">
+                        </p>
+                    </div>
+                    <div class=" col-md-4 d-flex flex-column">
+                        <ul class="list-inline ul-work justify-content-center">
+                            <li class="list-inline-item badge bg-info text-primary"><a class= "text-decoration-none text-dark" href="">Html</a></li>
+                            <li class="list-inline- badge bg-info"><a class= "text-decoration-none text-dark" href="">Css</a></li>
+                            <li class="list-inline-item badge bg-info "><a class= "text-decoration-none text-dark" href="">Javascript</a></li>
+                            <ul class="list-inline text-dark">
+                                <li class="list-inline-item badge bg-info"><a class= "text-decoration-none text-dark" href="">Bootstrap</a></li>
+                                <li class="list-inline-item badge bg-info"><a class= "text-decoration-none text-dark" href="">ruby</a></li>
+                                <li class="list-inline-item badge bg-info"><a class= "text-decoration-none text-dark" href="">github</a></li>
+                            </ul>
+                        </ul>
+                        <div class="d-flex flex-row col-md-10 gap-2 pb-2 justify-content-start">
+                            <a href="https://abbassarwar.github.io/Abbas-Portfolio/" class="btn btn-outline-primary text-decoration-none">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/AbbasSarwar/Abbas-Portfolio" class="btn btn-outline-primary text-decoration-none">See Source <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
     <section class="about" id="about">
         <div class="langs-about">
@@ -253,17 +290,18 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             <div class="form-work">
-                <form action="https://formspree.io/f/xeqwgzag" method="POST">
+                <form action="https://formspree.io/f/xeqwgzag" method="POST" id="form">
                     <ul>
                         <li>
                             <input type="text" name="Username" id="name" minlength="6" maxlength="30" required placeholder="Full Name">
                         </li>
                         <li>
-                            <input type="email" name="Email" id="mail" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]">
+                            <input type="email" name="Email" id="mail" required placeholder="Email" >
                         </li>
                         <li>
                             <textarea name="Message" id="msg" cols="30" rows="10" required placeholder="Write Your message here." maxlength="500"></textarea>
                         </li>
+                        <li class="error text-center text-danger"></li>
                         <li class="last-send">
                             <input type="submit" name="submit" id="send" value="Get in touch">
                         </li>

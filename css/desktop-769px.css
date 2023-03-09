@@ -127,6 +127,14 @@
     height: 40vh;
   }
 
+  .menuLinks {
+    display: block;
+  }
+
+  .close {
+    display: none !important;
+  }
+
   .social-bar a img {
     width: 21px;
     height: 21px;
