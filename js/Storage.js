@@ -9,7 +9,7 @@ const user = [
     msg: '',
   },
 ];
-form.addEventListener('submit', () => {
+form.addEventListener('input', () => {
   user[0].userName = Usr.value;
   user[0].Email = Mail.value;
   user[0].msg = Msg.value;
