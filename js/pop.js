@@ -107,8 +107,3 @@ for (let i = 0; i < objs.length; i += 1) {
     });
   });
 }
-const closeBtn = document.querySelector('.closeit');
-closeBtn.addEventListener('click', () => {
-  const container1 = document.querySelector('.work-modal');
-  container1.style.display = 'none';
-});
