@@ -4,7 +4,7 @@ const objs = [
   {
     topic: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'image-resources/Snapshoot Portfolio3.jpg',
+    img: 'image-resources/1k.png',
     languages: ['html', 'css', 'javascript'],
     tags: [' CANOPY • BACK END DEV • 2015'],
   },

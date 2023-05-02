@@ -47,15 +47,8 @@
     position: absolute;
     right: 10px;
     z-index: 10;
-  }
-
-  .close {
-    display: none;
-    z-index: 100;
-    position: fixed;
-    right: 10px;
-    font-size: 35px;
-    color: #fff;
+    border: 1px solid black;
+    transition: .5s;
   }
 
   .menu-vector {
@@ -63,6 +56,7 @@
     height: 3px;
     background-color: #6070ff;
     display: block;
+    transition: .5s;
   }
 
   .menu-links1 {
@@ -78,6 +72,27 @@
     list-style: none;
     padding: 100px 50px;
     z-index: 10;
+    transition: .5s;
+  }
+
+  .displaynow {
+    display: flex;
+  }
+
+
+  .hambo .line1 {
+    transform: rotate(60deg) translate(5px, 0%);
+  }
+  .hambo .line2 {
+    display: none;
+  }
+  .hambo .line3 {
+    transform: rotate(130deg) translate(-3px,0% );
+  }
+
+  .displaynow .menu-icon {
+    display: flex;
+    z-index: 999;
   }
 
   .menu-links1 li {
