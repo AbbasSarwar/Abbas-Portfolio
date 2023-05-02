@@ -2,32 +2,40 @@ const container = document.getElementById('modal');
 const workContainer = document.querySelector('.work-container');
 const objs = [
   {
-    topic: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'image-resources/1k.png',
-    languages: ['html', 'css', 'javascript'],
+    topic: 'Movies API',
+    description: 'This is a movie and TV show listing project that retrieves all data from an API, and allows you to like and comment on them.',
+    img: 'image-resources/2.PNG',
+    languages: ['html', 'css', 'javascript', 'Webpack', 'API'],
     tags: [' CANOPY • BACK END DEV • 2015'],
+    src: 'https://abbassarwar.github.io/Shows/dist/',
+    srcCode: 'https://github.com/AbbasSarwar/Shows'
   },
   {
-    topic: 'Multi Posting',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    img: 'image-resources/Snapshoot Portfolio2.jpg',
-    languages: ['html', 'css', 'javascript'],
+    topic: 'To-Do Listing',
+    description: 'A To-do listing app where you can add, remove and edit items as well helps in dailylife.',
+    img: 'image-resources/1.PNG',
+    languages: ['html', 'css', 'javascript','Webpack'],
     tags: [' UBER • LEADER BOARD 2015 '],
+    src:'https://abbassarwar.github.io/ToDo/dist/',
+    srcCode:'https://github.com/AbbasSarwar/ToDo'
   },
   {
-    topic: 'Facebook 360',
-    description: "Exploring the future of media in Facebook's first Virtual Reality app a place to discover and enjoy 360 photos and videos on Gear VR.",
-    img: 'image-resources/Portfolio.png',
+    topic: 'xGen Conference',
+    description: "This is a simple web application that provides updates and details about a particular community's news. It also has the potential to attach programs in the future.",
+    img: 'image-resources/3.png',
     languages: ['html', 'css', 'javascript'],
     tags: [' FACEBOOK •Full STACK DEV • 2015'],
+    src:'https://abbassarwar.github.io/XGen-Conference/',
+    srcCode:'https://github.com/AbbasSarwar/XGen-Conference'
   },
   {
     topic: 'Uber Navigation',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'image-resources/Snapshoot Portfolio3.jpg',
+    description: 'It can update score to the board by name fetching from API.',
+    img: 'image-resources/4.png',
     languages: ['html', 'css', 'javascript'],
     tags: ['CANOPY • UBER LEADER BOARD • 2015'],
+    src:'https://abbassarwar.github.io/Leaderboard/src/',
+    srcCode:'https://github.com/AbbasSarwar/Leaderboard'
   },
 ];
 
@@ -91,8 +99,8 @@ for (let i = 0; i < objs.length; i += 1) {
 }
                       </ul>
                   <div class="d-flex flex-row col-md-10 gap-2 pb-2">
-                      <a href="https://abbassarwar.github.io/Abbas-Portfolio/" class="btn btn-outline-primary text-decoration-none">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                      <a href="https://github.com/AbbasSarwar/Abbas-Portfolio" class="btn btn-outline-primary text-decoration-none">See Source <i class="fa-brands fa-github"></i></a>
+                      <a href="${objs[i].src}" class="btn btn-outline-primary text-decoration-none">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="${objs[i].srcCode}" class="btn btn-outline-primary text-decoration-none">See Source <i class="fa-brands fa-github"></i></a>
                   </div>
               </div>
           </div>
