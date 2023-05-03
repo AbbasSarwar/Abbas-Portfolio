@@ -7,4 +7,8 @@ document.addEventListener('click', (e)=>{
   menuLinks.classList.toggle('displaynow')
   menuIcon.classList.toggle('hambo')
  }
+ if(e.target.classList.contains('menu-a')){
+    menuLinks.classList.remove('displaynow')
+    menuIcon.classList.remove('hambo')
+ }
 })

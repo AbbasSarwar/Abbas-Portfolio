@@ -24,8 +24,6 @@
   header {
     display: flex;
     flex-direction: row;
-
-    /* justify-content: space-between; */
     padding: 4vh 5vh;
     background: #fff;
   }
@@ -81,6 +79,8 @@
 
   .hambo .line1 {
     transform: rotate(60deg) translate(5px, 0%);
+    position: fixed;
+    right: 0;
   }
 
   .hambo .line2 {
@@ -89,6 +89,8 @@
 
   .hambo .line3 {
     transform: rotate(130deg) translate(-3px, 0%);
+    position: fixed;
+    right: 0;
   }
 
   .displaynow .menu-icon {
