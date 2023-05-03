@@ -45,7 +45,6 @@
     position: absolute;
     right: 10px;
     z-index: 10;
-    border: 1px solid black;
     transition: 0.5s;
   }
 

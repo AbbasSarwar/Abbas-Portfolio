@@ -29,7 +29,7 @@ const objs = [
     srcCode:'https://github.com/AbbasSarwar/XGen-Conference'
   },
   {
-    topic: 'Uber Navigation',
+    topic: 'Leaderboard',
     description: 'It can update score to the board by name fetching from API.',
     img: 'image-resources/4.png',
     languages: ['html', 'css', 'javascript'],
