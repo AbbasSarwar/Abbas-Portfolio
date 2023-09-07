@@ -4,17 +4,17 @@ const objs = [
   {
     topic: 'Movies API',
     description: 'This is a movie and TV show listing project that retrieves all data from an API, and allows you to like and comment on them.',
-    img: 'image-resources/2.PNG',
-    languages: ['html', 'css', 'javascript', 'Webpack', 'API'],
+    img: 'https://raw.githubusercontent.com/AbbasSarwar/Assets/main/movies.PNG',
+    languages: ['HTML5', 'CSS3', 'JavaScript', 'Webpack', 'API'],
     tags: [' CANOPY • BACK END DEV • 2015'],
     src: 'https://abbassarwar.github.io/Shows/dist/',
     srcCode: 'https://github.com/AbbasSarwar/Shows'
   },
   {
-    topic: 'To-Do Listing',
-    description: 'A To-do listing app where you can add, remove and edit items as well helps in dailylife.',
-    img: 'image-resources/1.PNG',
-    languages: ['html', 'css', 'javascript','Webpack'],
+    topic: 'Resort App',
+    description: 'A booking app that enables you to add, delete, and reserve resorts with full authentication for login/sign-up. It was completed through teamwork and communication.',
+    img: 'https://raw.githubusercontent.com/AbbasSarwar/Assets/main/resort.PNG',
+    languages: ['HTML5','CSS3' , 'ReactJs', 'RoR','PostgreSQL'],
     tags: [' UBER • LEADER BOARD 2015 '],
     src:'https://abbassarwar.github.io/ToDo/dist/',
     srcCode:'https://github.com/AbbasSarwar/ToDo'
@@ -22,17 +22,17 @@ const objs = [
   {
     topic: 'xGen Conference',
     description: "This is a simple web application that provides updates and details about a particular community's news. It also has the potential to attach programs in the future.",
-    img: 'image-resources/3.png',
+    img: '../image-resources/3.PNG',
     languages: ['html', 'css', 'javascript'],
     tags: [' FACEBOOK •Full STACK DEV • 2015'],
     src:'https://abbassarwar.github.io/XGen-Conference/',
     srcCode:'https://github.com/AbbasSarwar/XGen-Conference'
   },
   {
-    topic: 'Leaderboard',
-    description: 'It can update score to the board by name fetching from API.',
-    img: 'image-resources/4.png',
-    languages: ['html', 'css', 'javascript'],
+    topic: 'Currency Exchange App',
+    description: 'Currency Exchange is a web app that enables currency conversion between different countries, offering a user-friendly interface to select and convert currencies. It also provides information on currency codes and associated country names.',
+    img: 'https://raw.githubusercontent.com/AbbasSarwar/Assets/main/Currency.PNG',
+    languages: ['HTML5', 'CSS3', 'ReactJs'],
     tags: ['CANOPY • UBER LEADER BOARD • 2015'],
     src:'https://abbassarwar.github.io/Leaderboard/src/',
     srcCode:'https://github.com/AbbasSarwar/Leaderboard'
