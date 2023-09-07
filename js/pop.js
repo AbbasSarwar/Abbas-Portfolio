@@ -22,7 +22,7 @@ const objs = [
   {
     topic: 'xGen Conference',
     description: "This is a simple web application that provides updates and details about a particular community's news. It also has the potential to attach programs in the future.",
-    img: '../image-resources/3.PNG',
+    img: 'https://raw.githubusercontent.com/AbbasSarwar/Assets/main/3.PNG',
     languages: ['html', 'css', 'javascript'],
     tags: [' FACEBOOK •Full STACK DEV • 2015'],
     src:'https://abbassarwar.github.io/XGen-Conference/',
